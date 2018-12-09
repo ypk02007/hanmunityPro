@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<div class="Container">
+<div class="noticeBorder">
+  <form (submit)="onPetitionSubmit()">
+    <div id="inputs">
+      <label> 제목 : </label>
+      <input type="text" class="form-control" [(ngModel)]="title" name="title">
+    </div>
+    <div id="inputs">
+      <label> 내용 : </label>
+      <input type="textarea" class="form-control" [(ngModel)]="content" name="content">
+    </div>
+    <div id="inputs">
+        <label> 목표 청원 수 : </label>
+        <select class="form-control" [(ngModel)]="max" name="max">
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+    <div id="inputs">
+      <button id="bigbutton" type="submit" value="Submit"> 글쓰기 </button>
+    </div>
+  </form>
+  <ul class="selection" routerLink='/home'>홈으로</ul>
+</div>
+</div>

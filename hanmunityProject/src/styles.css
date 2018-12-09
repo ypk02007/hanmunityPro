@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.Container{
+    font-family: 'Gugi', cursive;
+}
+.noticeBorder{
+    font-family: 'Gugi', cursive;
+    border-radius: 20px;
+    border: 2px solid rgb(27, 101, 212);
+    background-color: rgb(27, 101, 212);
+    width: 700px;
+    margin: auto;
+    
+}

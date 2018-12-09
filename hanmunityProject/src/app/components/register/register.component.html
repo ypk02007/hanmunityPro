@@ -1,0 +1,31 @@
+<img class="hanlogo" src="https://blogfiles.pstatic.net/MjAxODExMjFfMjc2/MDAxNTQyODAyNzE1NjQw.GI41AhMA6nEWyhlKLN-IZMVPJwnksr2lNbzVlpwG_4gg.mbVHVkd8VBoZJu6tOd3GmKCdzwUZESxLLpimXFdHYMwg.PNG.ypk02007/hanlogo.png" >
+<img class="han" src="https://blogfiles.pstatic.net/MjAxODExMjFfMjMz/MDAxNTQyODAyNzE2MDMz.wHaIyTdrzLg3GnAk1vxPTPwdysDWmb8ScTZ6vIECAP4g.Vlz4bBE3ZFL1y2ogjebkluN_2Qp_RqU9Dmefhr6ejlog.PNG.ypk02007/hanmu.png">
+
+<div class="loginform">
+  <div><h5>REGISTER</h5>
+    <form (submit)="onRegisterSubmit()">
+      <div id="inputs">
+        <label> 아이디 : </label>
+        <input type="text" class="form-control" [(ngModel)]="username" name="username">
+      </div>
+      <div id="inputs">
+        <label> 비밀번호 : </label>
+        <input type="password" class="form-control" [(ngModel)]="password" name="password">
+      </div>
+      <div id="inputs">
+          <label> 이름 : </label>
+          <input type="text" class="form-control" [(ngModel)]="name" name="name">
+      </div>
+      <div id="inputs">
+          <label> 이메일 : </label>
+          <input type="text" class="form-control" [(ngModel)]="email" name="email">
+      </div>
+      <div id="inputs">
+        <button id="bigbutton" type="submit" value="Submit"> 회원가입 </button>
+      </div>
+      <div id="inputs">
+        <button id="bigbutton" [routerLink]="['/login']"> 돌아가기 </button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+.han{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:140px;
+}
+.hanlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top:80px;
+}
+.loginform{
+    font-family: 'Jua', sans-serif;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: rgb(213, 217, 221);
+    text-align: center;
+    width: 300px;
+  
+}
+input[type=text], input[type=password] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgba(187, 206, 224, 0.726);
+    color: black;
+    border-radius: 4px;
+    font-weight: 0.3px;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+}
+
+button:hover {
+    background-color: rgba(199, 213, 226, 0.829);
+}
+
+#inputs {
+    padding: 10px;
+}
